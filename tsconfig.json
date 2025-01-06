@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "composite": true,
+    "module": "commonjs",
+    "declaration": true,
+    "declarationMap": true,
+    "removeComments": false,
+    "noLib": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es6",
+    "sourceMap": true,
+    "skipLibCheck": true,
+  },
+}

@@ -1,0 +1,20 @@
+{
+  "name": "@rainxlab/brand-assets",
+  "version": "1.0.0",
+  "description": "RainX personal brand assets",
+  "main": "lib/brand-assets.js",
+  "scripts": {
+    "test": "vitest",
+    "build": "tsc && npx shx cp -r src/images ./lib",
+    "eslint": "eslint --cache 'src/**/*.ts*'",
+    "lint": "pnpm prettier && pnpm eslint",
+    "lint:fix": "pnpm prettier --write && eslint 'src/**/*.ts*' --fix",
+    "prettier": "prettier '{src,__tests__}/**/*.{tsx,ts}' -l"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vitest": "^2.1.8"
+  }
+}
