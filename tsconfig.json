@@ -2,15 +2,20 @@
   "compilerOptions": {
     "strict": true,
     "composite": true,
-    "module": "commonjs",
+    "module": "ESNext",
     "declaration": true,
     "declarationMap": true,
     "removeComments": false,
     "noLib": false,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "target": "es6",
+    "target": "ESNext",
     "sourceMap": true,
     "skipLibCheck": true,
   },
+  "references": [
+    {
+      "path": "./packages/brand-assets",
+    },
+  ],
 }

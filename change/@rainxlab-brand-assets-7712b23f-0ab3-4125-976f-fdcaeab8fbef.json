@@ -1,0 +1,7 @@
+{
+  "type": "patch",
+  "comment": "fix: correct the build and test scripts",
+  "packageName": "@rainxlab/brand-assets",
+  "email": "i@rainx.cc",
+  "dependentChangeType": "patch"
+}

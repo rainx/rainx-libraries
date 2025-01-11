@@ -1,11 +1,12 @@
 {
+  "type": "module",
   "name": "@rainxlab/brand-assets",
   "version": "1.0.0",
   "description": "RainX personal brand assets",
   "main": "lib/brand-assets.js",
   "scripts": {
     "test": "vitest",
-    "build": "tsc && npx shx cp -r src/images ./lib",
+    "build": "tsc -p ./tsconfig.lib.json && npx shx cp -r src/images ./lib",
     "eslint": "eslint --cache 'src/**/*.ts*'",
     "lint": "pnpm prettier && pnpm eslint",
     "lint:fix": "pnpm prettier --write && eslint 'src/**/*.ts*' --fix",
@@ -15,6 +16,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^22.10.5",
     "vitest": "^2.1.8"
   }
 }
