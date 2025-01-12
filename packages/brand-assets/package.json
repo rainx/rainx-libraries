@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "@rainxlab/brand-assets",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "RainX personal brand assets",
   "main": "lib/brand-assets.js",
   "typings": "lib/brand-assets.d.ts",

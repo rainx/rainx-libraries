@@ -1,0 +1,20 @@
+{
+  "name": "@rainxlab/brand-assets",
+  "entries": [
+    {
+      "date": "Sun, 12 Jan 2025 08:43:54 GMT",
+      "version": "1.0.3",
+      "tag": "@rainxlab/brand-assets_v1.0.3",
+      "comments": {
+        "patch": [
+          {
+            "author": "i@rainx.cc",
+            "package": "@rainxlab/brand-assets",
+            "commit": "416f783dbb3b314a972b083c69971c6062a6a80d",
+            "comment": "fix: correct the build and test scripts"
+          }
+        ]
+      }
+    }
+  ]
+}
