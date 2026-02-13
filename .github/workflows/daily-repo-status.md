@@ -13,7 +13,7 @@ engine:
   id: claude
   model: Pro/zai-org/GLM-4.7
   env:
-    ANTHROPIC_BASE_URL: https://api.siliconflow.cn/v1
+    ANTHROPIC_BASE_URL: https://api.siliconflow.cn
     ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
     CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETAS: "1"
 
