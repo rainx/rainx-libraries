@@ -9,6 +9,13 @@ on:
   schedule: daily
   workflow_dispatch:
 
+engine:
+  id: codex
+  model: moonshotai/kimi-k2.5
+  env:
+    OPENAI_BASE_URL: https://integrate.api.nvidia.com/v1
+    OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+
 permissions:
   contents: read
   issues: read
