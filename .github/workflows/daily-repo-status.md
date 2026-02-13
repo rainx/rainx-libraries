@@ -10,11 +10,12 @@ on:
   workflow_dispatch:
 
 engine:
-  id: codex
-  model: moonshotai/kimi-k2.5
+  id: claude
+  model: Pro/zai-org/GLM-4.7
   env:
-    OPENAI_BASE_URL: https://integrate.api.nvidia.com/v1
-    OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+    ANTHROPIC_BASE_URL: https://api.siliconflow.cn/v1
+    ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+    CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETAS: "1"
 
 permissions:
   contents: read
@@ -24,7 +25,7 @@ permissions:
 network:
   allowed:
     - defaults
-    - "integrate.api.nvidia.com"
+    - "api.siliconflow.cn"
 
 tools:
   github:
